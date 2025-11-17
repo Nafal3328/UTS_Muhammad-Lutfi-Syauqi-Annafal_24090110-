@@ -6,13 +6,6 @@ Deskripsi :  UTS Pemrograman Web 1 - Toko "Latansa"
 
 Project Ujian Tengah Semester mata kuliah Pemrograman Web 1 (D4 Teknik Informatika) ini bertujuan untuk mengonversi desain antarmuka (UI/UX) menjadi sebuah website fungsional menggunakan teknologi dasar **HTML**, **CSS** (dengan skema monokrom), dan **JavaScript**.
 
-### Detail Mahasiswa
-* **Nama:** Muhammad Lutfi Syauqi Annafal
-* **NIM:** 24090110
-* **Nama Toko:** Latansa
-
----
-
 ## Deskripsi Fungsi Tiap Halaman
 
 ### 1. Halaman Login (`index.html`)
@@ -33,4 +26,5 @@ Halaman yang menampilkan daftar produk dalam bentuk tabel.
 * **Fungsi JavaScript (DOM):**
     * Data tabel di-render dari *array of object* di `js/script.js` menggunakan method seperti `forEach()`.
     * Tombol **Edit** akan menampilkan pesan *alert*.
+
     * Tombol **Delete** akan menampilkan konfirmasi dan, jika disetujui, akan menghapus baris produk dari tabel menggunakan DOM `remove()`.
